@@ -12,6 +12,7 @@
 		A26F548129029744007DCED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26F548029029744007DCED9 /* Assets.xcassets */; };
 		A26F548429029744007DCED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26F548329029744007DCED9 /* Preview Assets.xcassets */; };
 		A26F548B29029789007DCED9 /* BackgroundThreadExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F548A29029789007DCED9 /* BackgroundThreadExample.swift */; };
+		B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A26F548029029744007DCED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26F548329029744007DCED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A26F548A29029789007DCED9 /* BackgroundThreadExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadExample.swift; sourceTree = "<group>"; };
+		B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				A26F547C29029744007DCED9 /* CheatSheetIntermediate2App.swift */,
 				A26F547E29029744007DCED9 /* ContentView.swift */,
 				A26F548A29029789007DCED9 /* BackgroundThreadExample.swift */,
+				B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */,
 				A26F548029029744007DCED9 /* Assets.xcassets */,
 				A26F548229029744007DCED9 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				A26F547F29029744007DCED9 /* ContentView.swift in Sources */,
 				A26F548B29029789007DCED9 /* BackgroundThreadExample.swift in Sources */,
+				B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */,
 				A26F547D29029744007DCED9 /* CheatSheetIntermediate2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
