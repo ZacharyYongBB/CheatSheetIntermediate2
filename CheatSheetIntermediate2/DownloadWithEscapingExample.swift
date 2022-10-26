@@ -24,43 +24,44 @@ class DownloadWithEscapingViewModel: ObservableObject {
     
     func getPosts() {
         
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else {return}
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {return}
+        
+        downloadData(fromURL: url) { returnedData in
+            if let data = returnedData {
+                guard let newPosts = try? JSONDecoder().decode([PostModel].self, from: data) else { return }
+                DispatchQueue.main.async { [weak self] in
+                    self?.posts = newPosts
+                }
+            } else {
+                print("No data returned")
+            }
+        }
+        
+        
+    }
+    
+    func downloadData(fromURL url:URL, completionHandler: @escaping (_ data: Data?) -> Void) {
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             
             guard
                 let data = data,
                 error == nil,
-                let response = response as? HTTPURLResponse
+                let response = response as? HTTPURLResponse,
                 response.statusCode >= 200 && response.statusCode < 300 else {
                 print("Error Downloading Data.")
+                completionHandler(nil)
                 return
             }
+        
+            completionHandler(data)
             
-            guard error == nil else {
-                print("Error: \(String(describing: error))")
-                return
-            }
-            
-            guard let response = response as? HTTPURLResponse else {
-                print("Invalid response.")
-                return
-            }
-            
-            guard response.statusCode >= 200 && response.statusCode < 300 else {
-                print("Status code should be 2xx, but is \(response.statusCode)")
-                return
-            }
-            
-            
-            guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else { return }
-            DispatchQueue.main.async { [weak self] in
-                self?.posts.append(newPost)
-            }
+    
             
             
             
         }.resume()
+        
     }
     
 }
