@@ -17,6 +17,7 @@
 		A28774D02906900900286EFC /* TypealiasExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28774CF2906900900286EFC /* TypealiasExample.swift */; };
 		A28774D22906969500286EFC /* EscapingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28774D12906969500286EFC /* EscapingExample.swift */; };
 		A28774D42906AD7100286EFC /* CodableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28774D32906AD7100286EFC /* CodableExample.swift */; };
+		A2924E84290A81DC0056DFBF /* TimerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2924E83290A81DC0056DFBF /* TimerExample.swift */; };
 		B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		A28774CF2906900900286EFC /* TypealiasExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasExample.swift; sourceTree = "<group>"; };
 		A28774D12906969500286EFC /* EscapingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingExample.swift; sourceTree = "<group>"; };
 		A28774D32906AD7100286EFC /* CodableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExample.swift; sourceTree = "<group>"; };
+		A2924E83290A81DC0056DFBF /* TimerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerExample.swift; sourceTree = "<group>"; };
 		B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				A28774D32906AD7100286EFC /* CodableExample.swift */,
 				A23E8EF82908FAEF003E0967 /* DownloadWithEscapingExample.swift */,
 				A2712A1B290926FF008341BC /* DownloadWithCombineExample.swift */,
+				A2924E83290A81DC0056DFBF /* TimerExample.swift */,
 				A26F548029029744007DCED9 /* Assets.xcassets */,
 				A26F548229029744007DCED9 /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				A28774D42906AD7100286EFC /* CodableExample.swift in Sources */,
 				B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */,
 				A28774D02906900900286EFC /* TypealiasExample.swift in Sources */,
+				A2924E84290A81DC0056DFBF /* TimerExample.swift in Sources */,
 				A26F547D29029744007DCED9 /* CheatSheetIntermediate2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
