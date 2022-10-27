@@ -11,7 +11,7 @@ import SwiftUI
 struct CheatSheetIntermediate2App: App {
     var body: some Scene {
         WindowGroup {
-            DownloadWithEscapingExample()
+            DownloadWithCombineExample()
         }
     }
 }
