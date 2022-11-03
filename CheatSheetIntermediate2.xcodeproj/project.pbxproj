@@ -19,6 +19,7 @@
 		A28774D42906AD7100286EFC /* CodableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28774D32906AD7100286EFC /* CodableExample.swift */; };
 		A2924E84290A81DC0056DFBF /* TimerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2924E83290A81DC0056DFBF /* TimerExample.swift */; };
 		A2964ADB290E9887005AD9D4 /* SubscriberExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2964ADA290E9887005AD9D4 /* SubscriberExample.swift */; };
+		A2A03EDF2913B8F400ABCA8B /* CacheExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A03EDE2913B8F400ABCA8B /* CacheExample.swift */; };
 		A2C050BB290FB1BE00656EA2 /* FileManagerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C050BA290FB1BE00656EA2 /* FileManagerExample.swift */; };
 		B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		A28774D32906AD7100286EFC /* CodableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExample.swift; sourceTree = "<group>"; };
 		A2924E83290A81DC0056DFBF /* TimerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerExample.swift; sourceTree = "<group>"; };
 		A2964ADA290E9887005AD9D4 /* SubscriberExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberExample.swift; sourceTree = "<group>"; };
+		A2A03EDE2913B8F400ABCA8B /* CacheExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheExample.swift; sourceTree = "<group>"; };
 		A2C050BA290FB1BE00656EA2 /* FileManagerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExample.swift; sourceTree = "<group>"; };
 		B6F272E529067EF100F39DD1 /* WeakSelfExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 				A2924E83290A81DC0056DFBF /* TimerExample.swift */,
 				A2964ADA290E9887005AD9D4 /* SubscriberExample.swift */,
 				A2C050BA290FB1BE00656EA2 /* FileManagerExample.swift */,
+				A2A03EDE2913B8F400ABCA8B /* CacheExample.swift */,
 				A26F548029029744007DCED9 /* Assets.xcassets */,
 				A26F548229029744007DCED9 /* Preview Content */,
 			);
@@ -177,6 +180,7 @@
 				B6F272E629067EF100F39DD1 /* WeakSelfExample.swift in Sources */,
 				A28774D02906900900286EFC /* TypealiasExample.swift in Sources */,
 				A2924E84290A81DC0056DFBF /* TimerExample.swift in Sources */,
+				A2A03EDF2913B8F400ABCA8B /* CacheExample.swift in Sources */,
 				A2C050BB290FB1BE00656EA2 /* FileManagerExample.swift in Sources */,
 				A26F547D29029744007DCED9 /* CheatSheetIntermediate2App.swift in Sources */,
 			);
